@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Stickyfolio animated banner">
+  <defs><linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff004c"><animate attributeName="stop-color" values="#ff004c;#ff7e00;#fcd805;#b6fe00;#00e5ff;#7c4dff;#ff004c" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="25%" stop-color="#ff7e00"><animate attributeName="stop-color" values="#ff7e00;#fcd805;#b6fe00;#00e5ff;#7c4dff;#ff004c;#ff7e00" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#b6fe00"><animate attributeName="stop-color" values="#b6fe00;#00e5ff;#7c4dff;#ff004c;#ff7e00;#fcd805;#b6fe00" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="75%" stop-color="#00e5ff"><animate attributeName="stop-color" values="#00e5ff;#7c4dff;#ff004c;#ff7e00;#fcd805;#b6fe00;#00e5ff" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#7c4dff"><animate attributeName="stop-color" values="#7c4dff;#ff004c;#ff7e00;#fcd805;#b6fe00;#00e5ff;#7c4dff" dur="6s" repeatCount="indefinite"/></stop>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient></defs>
+  <rect width="1200" height="320" rx="24" fill="#034102"/>
+  <g opacity="0.18" fill="#b6fe00">
+    <circle cx="120" cy="60" r="6"/><circle cx="1080" cy="260" r="8"/><circle cx="1020" cy="70" r="5"/><circle cx="180" cy="250" r="7"/>
+  </g>
+  <g transform="translate(930,160)">
+    <circle r="70" fill="#fcd805"/>
+    <circle r="28" fill="#034102"/>
+    <path d="M50 -50 L120 -85 L120 -25 L55 -20 Z" fill="#b6fe00"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 930 160;360 930 160" dur="14s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <text x="70" y="145" font-family="Arial Black, Arial, sans-serif" font-size="86" font-weight="900" fill="url(#rainbow)">STICKYFOLIO</text>
+  <text x="74" y="195" font-family="Arial, sans-serif" font-size="26" fill="#fff1a2">Ideas that stick. A playful portfolio template.</text>
+  <text x="74" y="235" font-family="Arial, sans-serif" font-size="18" fill="#b6fe00">Next.js · GSAP · Lenis · Three.js · GitHub Pages ready</text>
+  <rect x="70" y="260" width="260" height="8" rx="4" fill="url(#rainbow)">
+    <animate attributeName="width" values="120;420;120" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
